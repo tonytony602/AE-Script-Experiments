@@ -1,0 +1,13 @@
+damp = 5;
+
+if (numKeys == 2){
+  tX = key(2).time;
+  if (time <  tX){
+    value
+  }else{
+    t = time -  tX;
+    amp = velocityAtTime( tX - .001);
+    valueAtTime( tX) + amp*(1-1/Math.exp(t*damp))/damp
+  }
+}else
+  value
